@@ -1,15 +1,22 @@
 {
-  "name": "notational.js",
-  "version": "0.0.1",
-  "description": "a utility that takes a note title of argument, and creates a file of <timestamp>-<title>.md, and opens the file in your favorite editor",
   "author": "Felix Volny <felix@volny.co>",
+  "bin": {
+    "notational": "notational"
+  },
+  "dependencies": {
+    "commander": "^2.20.0",
+    "lodash.kebabcase": "^4.1.1"
+  },
+  "description": "A utility for creating and opening Notational files",
   "engines": {
     "node": ">=0.10"
   },
-  "dependencies": {
-    "commander": "^2.20.0"
+  "license": "MIT",
+  "main": "index.js",
+  "name": "notational",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/volny/notational.git"
   },
-  "bin": {
-    "notationaljs": "notational.js"
-  }
+  "version": "0.0.1"
 }
