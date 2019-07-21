@@ -1,7 +1,7 @@
 {
   "author": "Felix Volny <felix@volny.co>",
   "bin": {
-    "notational": "notational"
+    "notational": "src/index.js"
   },
   "dependencies": {
     "commander": "^2.20.0",
@@ -18,5 +18,5 @@
     "type": "git",
     "url": "https://github.com/volny/notational.git"
   },
-  "version": "0.0.1"
+  "version": "0.0.2"
 }
