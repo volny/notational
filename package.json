@@ -1,7 +1,7 @@
 {
   "name": "notational.js",
   "version": "0.0.1",
-  "description": "A simple command-line tool for searching git repositories",
+  "description": "a utility that takes a note title of argument, and creates a file of <timestamp>-<title>.md, and opens the file in your favorite editor",
   "author": "Felix Volny <felix@volny.co>",
   "engines": {
     "node": ">=0.10"
