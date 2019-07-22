@@ -1,6 +1,6 @@
 const makeTemplate = title => `---
 title: ${title || ''}
-date: ${new Date()}
+created: ${new Date()}
 ---
 
 
